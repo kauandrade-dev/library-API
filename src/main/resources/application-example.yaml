@@ -1,0 +1,9 @@
+Spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/database
+    username: postgres
+    password: postgres
+
+jwt:
+  secret: example
+  expiration: 86400000
